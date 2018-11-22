@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.Amazon.S3", "Azos.Amaz
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.Google.Drive", "Azos.Google.Drive\Azos.Google.Drive.csproj", "{16288AF9-3AC1-4C3C-B4F4-98359AFD1FCF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Azos.Tests.FS", "testing\Azos.Tests.FS\Azos.Tests.FS.csproj", "{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +25,16 @@ Global
 		{16288AF9-3AC1-4C3C-B4F4-98359AFD1FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16288AF9-3AC1-4C3C-B4F4-98359AFD1FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16288AF9-3AC1-4C3C-B4F4-98359AFD1FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1FEE8CF3-4A6A-447D-8EA2-D6AFDB934EA4} = {0FC66524-0EE2-410C-B971-97170166D2D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75EF590C-FE75-45E7-B941-B225EF484F5F}
